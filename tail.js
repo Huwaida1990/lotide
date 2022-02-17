@@ -14,3 +14,4 @@ const tail = function (array) {
 const result = tail(["Hello", "Lighthouse", "Labs"]);
 assertEqual(result.toString(), ["Lighthouse", "Labs"].toString()); // => will always fail!
 console.log(result.toString());
+module.exports = tail;
