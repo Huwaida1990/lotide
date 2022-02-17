@@ -10,17 +10,16 @@
 // assertEqual("Lighthouse Labs", "Bootcamp");
 // assertEqual(1, 1);
 
-
 const countLetters = function (word) {
   let result = {};
-  for(let el of word){
-    if (el in result){
-      result[el] +=1
-    }else{
-      result[el] = 1
+  for (let el of word) {
+    if (el in result) {
+      result[el] += 1;
+    } else {
+      result[el] = 1;
     }
   }
-  return result
-}
+  return result;
+};
 
-console.log(countLetters('LHL'))
+console.log(countLetters("LHL"));
