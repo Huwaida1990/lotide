@@ -1,4 +1,3 @@
-assertEqual(['1',2],['1',2])
 const eqArrays = require("./eqArrays");
 
 const assertArraysEqual = function(array1, array2) {
