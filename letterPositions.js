@@ -1,10 +1,11 @@
-const letterPositions = function (sentence) {
+const letterPositions = function(sentence) {
   const results = {};
-  // logic to update results here
   for (let i = 0; i < sentence.length; i++) {
-    results[sentence[i]] = i;
+    if (sentence[i] !== " ") {
+      results[sentence[i]] ? results[sentence[i]].push(i) : results[sentence[i]] = [i];
+    }
   }
-
   return results;
 };
-console.log(letterPositions("hello"));
+
+module.exports = letterPositions;
