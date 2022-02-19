@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@huwaida/lotide",
   "version": "1.0.0",
-  "main": " assertObjectsEqual.js",
+  "main": " index.js",
   "directories": {
     "test": "test"
   },
